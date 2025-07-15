@@ -12,7 +12,7 @@ import { PiPlugsConnectedLight } from "react-icons/pi";
 const MyService = () => {
   return (
     <div>
-        <section id='myService' className='bg-[#151515] py-[61px]'>
+        <section id='myService' className='bg-[#000000] py-[61px]'>
             <div className="container">
                 <CommonHead Heading={'MY SERVICES'}/>
                 <div className="serviceRow mt-[81px] flex gap-[20px] ">

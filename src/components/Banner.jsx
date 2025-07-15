@@ -16,7 +16,7 @@ const Banner = () => {
 
   return (
     <div>
-        <section id='banner' className='bg-[#151515] pt-[100px] border-b border-amber-200'>
+        <section id='banner' className='bg-[#040404] pt-[100px] border-b border-amber-200'>
             <div className="container">
                 <div className="bannerRow flex justify-between">
 

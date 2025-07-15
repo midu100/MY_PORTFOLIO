@@ -14,7 +14,7 @@ const Navbar = () => {
     },
     {
       Name: "Portfolio",
-      add : '#'
+      add : '/portfolio'
     },
     {
       Name: "Services",
