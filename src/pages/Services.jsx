@@ -24,13 +24,13 @@ const MyService = () => {
                             <p className='text-[18px] font-medium text-white font-outfit select-none'>MY SERVICES</p>
                         </div>
 
-                        <h1 className='text-[36px] font-semibold font-outfit text-white mt-[20px]'>What Services I Provide</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="1500" className='text-[36px] font-semibold font-outfit text-white mt-[20px]'>What Services I Provide</h1>
 
                         <div className='row flex justify-between flex-wrap '>
-                            <SingleService Icon={<CgIfDesign className='text-[60px] text-[#28E98C]'/>} Namee={'WEB DESIGN'} para={'I design clean, modern, and responsive websites that offer a smooth user experience across all devices. My focus is on creating visually appealing layouts that align with your brand and convert visitors into customers'} />
-                            <SingleService Icon={<MdOutlineDeveloperMode className='text-[60px] text-[#28E98C]'/>} Namee={'WEB DEVELOPMENT'} para={'I build responsive, fast, and user-friendly websites using modern technologies like HTML, CSS, JavaScript, React, and Tailwind CSS. From clean design to smooth functionality — I create web solutions that are both visually appealing and performance-driven.'} />
-                            <SingleService Icon={<DiResponsive className='text-[60px] text-[#28E98C]'/>} Namee={'RESPONSIVE'} para={'I create websites that look great and work perfectly on all devices — from desktops to smartphones — ensuring a smooth and consistent user experience.'} />
-                            <SingleService Icon={<PiPlugsConnectedLight className='text-[60px] text-[#28E98C]'/>} Namee={'API CONNECTION'} para={'I seamlessly connect applications to external services using APIs, enabling real-time data exchange and enhanced functionality.'} />
+                            <SingleService Icon={<CgIfDesign data-aos="fade-right" data-aos-duration="1800" className='text-[60px] text-[#28E98C]'/>} Namee={'WEB DESIGN'} para={'I design clean, modern, and responsive websites that offer a smooth user experience across all devices. My focus is on creating visually appealing layouts that align with your brand and convert visitors into customers'} />
+                            <SingleService Icon={<MdOutlineDeveloperMode data-aos="fade-right" data-aos-duration="1800" className='text-[60px] text-[#28E98C]'/>} Namee={'WEB DEVELOPMENT'} para={'I build responsive, fast, and user-friendly websites using modern technologies like HTML, CSS, JavaScript, React, and Tailwind CSS. From clean design to smooth functionality — I create web solutions that are both visually appealing and performance-driven.'} />
+                            <SingleService Icon={<DiResponsive data-aos="fade-right" data-aos-duration="1800" className='text-[60px] text-[#28E98C]'/>} Namee={'RESPONSIVE'} para={'I create websites that look great and work perfectly on all devices — from desktops to smartphones — ensuring a smooth and consistent user experience.'} />
+                            <SingleService Icon={<PiPlugsConnectedLight data-aos="fade-right" data-aos-duration="1800" className='text-[60px] text-[#28E98C]'/>} Namee={'API CONNECTION'} para={'I seamlessly connect applications to external services using APIs, enabling real-time data exchange and enhanced functionality.'} />
                         </div>
                     </div>
                 </div>

@@ -13,16 +13,16 @@ const Navbar = () => {
       add : '/about'
     },
     {
-      Name: "Portfolio",
-      add : '/portfolio'
-    },
-    {
       Name: "Services",
       add : '/service'
     },
     {
+      Name: "Portfolio",
+      add : '/portfolio'
+    },
+    {
       Name: "Contact",
-      add : '#'
+      add : '/contact'
     },
   ]
   return (
@@ -46,7 +46,7 @@ const Navbar = () => {
              
             </ul>
 
-            <Link to={'#'} className='py-[6px] px-[53px] text-[18px] text-[#000] font-outfit font-normal rounded-[8px] bg-[#FEAA00] cursor-pointer hover:bg-sky-600 hover:text-white hover:tracking-[1px] duration-400'>Contact Me</Link>
+            <Link to={'/contact'} className='py-[6px] px-[53px] text-[18px] text-[#000] font-outfit font-normal rounded-[8px] bg-[#FEAA00] cursor-pointer hover:bg-sky-600 hover:text-white hover:tracking-[1px] duration-400'>Contact Me</Link>
 
            </div>
         </div>

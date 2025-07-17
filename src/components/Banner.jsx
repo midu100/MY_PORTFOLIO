@@ -5,6 +5,11 @@ import me from '../assets/img/me.png'
 import me1 from '../assets/img/me1.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import bannerPic from '../assets/img/bannerPic.png'
+import { useCountUp } from 'react-countup'
+
+
+
 
 
 const Banner = () => {
@@ -14,9 +19,14 @@ const Banner = () => {
     AOS.init({ duration: 1000 }); // duration optional
   }, []);
 
+//   counter
+ useCountUp({ ref: 'counterId', end: 10, duration: 5 });
+  useCountUp({ ref: 'counterId2', end: 20, duration: 5 });
+  useCountUp({ ref: 'counterId3', end: 2, duration: 5 });
+
   return (
     <div>
-        <section id='banner' className='bg-[#040404] pt-[100px] border-b border-amber-200'>
+        <section id='banner' className='bg-[#040404] pt-[100px] border-b border-[#3b3939]'>
             <div className="container">
                 <div className="bannerRow flex justify-between">
 
@@ -42,18 +52,24 @@ const Banner = () => {
                         </div>
 
                         <div className='mt-[40px]'>
-                            <Link className=' py-[12px] px-[142px] text-[18px] font-outfit font-normal text-white border border-white rounded-[8px]' to={'#'}>Contact Me</Link>
+                            <Link className=' py-[12px] px-[142px] text-[18px] font-outfit font-normal text-white border border-white rounded-[8px] hover:bg-sky-600 hover:text-black hover:border-0 duration-300' to={'#'}>Contact Me</Link>
                         </div>
 
-                        <div className='flex gap-[26px] mt-[50px]'>
-                            <div className='w-[145px]'>
-                                <h2 className='text-[35px] font-outfit font-medium text-yellow text-center'><span>10</span>+</h2>
+                        <div className='flex justify-between items-center mt-[50px]'>
+                            <div data-aos="fade-right"  data-aos-duration="1500" className='w-[145px]'>
+                                
+                                <h2 className='text-[35px] font-outfit font-medium text-yellow text-center'><span id='counterId'>10</span>+</h2>
                                 <p className='text-[18px] font-normal font-outfit text-white text-center leading-[5px]'>Clients globally</p>
                             </div>
 
-                            <div className='w-[145px]'>
-                                <h2 className='text-[35px] font-outfit font-medium text-yellow text-center'><span>5</span>+</h2>
+                            <div data-aos="fade-right"  data-aos-duration="2200" className='w-[145px]'> 
+                                <h2 className='text-[35px] font-outfit font-medium text-yellow text-center'><span id='counterId2'></span>+</h2>
                                 <p className='text-[18px] font-normal font-outfit text-white text-center leading-[5px]'>web projects</p>
+                            </div>
+
+                            <div data-aos="fade-right"  data-aos-duration="2500" className='w-[145px]'> 
+                                <h2 className='text-[35px] font-outfit font-medium text-yellow text-center'><span id='counterId3'></span>+</h2>
+                                <p className='text-[17px] font-normal font-outfit text-white text-center leading-[5px]'>Year of Experience</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +81,7 @@ const Banner = () => {
                         </div> */}
 
                         <div className='w-[700px] bg-yellow rounded-full'>
-                            <img className='w-[700px] ' src={me1} alt='me' />
+                            <img className='w-[700px] h-[700px] ' src={bannerPic} alt='me' />
                         </div>
                     </div>
 

@@ -28,14 +28,14 @@ const Footer = () => {
             <div className="container">
                 <div className="footerRow flex justify-between">
                     <div className='w-[280px]'>
-                        <h2 className='mb-[30px] text-[45px] font-outfit font-bold text-[#000]'>KZM</h2>
-                        <p className='text-[22px] font-outfit font-normal text-[#000]'>A personal portfolio.</p>
+                        <h2 data-aos="fade-up" data-aos-duration="1000" className='mb-[30px] text-[45px] font-outfit font-bold text-[#000]'>KZM</h2>
+                        <p data-aos="fade-up" data-aos-duration="1400" className='text-[22px] font-outfit font-normal text-[#000]'>A personal portfolio.</p>
 
                         <div className='flex justify-between items-center mt-[30px]'>
                             {
                                  social.map((item,i)=>{
                                      return(
-                                        <div key={i} className="icons bg-orange-600 w-fit px-[15px] py-[15px] rounded-[20px] hover:bg-yellow hover:shadow-[0px_4px_44px_0px_rgba(234,_179,_8,_0.5)] duration-400">
+                                        <div key={i} data-aos="fade-up" data-aos-duration="1000" className="icons bg-orange-600 w-fit px-[15px] py-[15px] rounded-[20px] hover:bg-yellow hover:shadow-[0px_4px_44px_0px_rgba(234,_179,_8,_0.5)] duration-400">
                                             <Link to={'#'} >{item.icon}</Link>
                                          </div>
                                     )
@@ -47,26 +47,26 @@ const Footer = () => {
 
                     <div className='flex gap-[250px]'>
                         <div>
-                            <h2 className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Company</h2>
-                            <p className='text-[20px] font-outfit font-normal text-[#000]'>About Me</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Bio</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Work</p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Company</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='text-[20px] font-outfit font-normal text-[#000]'>About Me</p>
+                            <p data-aos="fade-up" data-aos-duration="1200" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Bio</p>
+                            <p data-aos="fade-up" data-aos-duration="1400" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Work</p>
                         </div>
 
                         <div>
-                            <h2 className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Social</h2>
-                            <p className='text-[20px] font-outfit font-normal text-[#000]'>Twitter</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Linkedln</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>GitHub</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Facebook</p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Social</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='text-[20px] font-outfit font-normal text-[#000]'>Twitter</p>
+                            <p data-aos="fade-up" data-aos-duration="1200" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Linkedln</p>
+                            <p data-aos="fade-up" data-aos-duration="1400" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>GitHub</p>
+                            <p data-aos="fade-up" data-aos-duration="1600" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Facebook</p>
                         </div>
 
                         <div>
-                            <h2 className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Legal</h2>
-                            <p className='text-[20px] font-outfit font-normal text-[#000]'>Terms</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Privacy</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Cookies</p>
-                            <p className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Contact</p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" className='mb-[30px] text-[30px] font-outfit font-medium text-orange-600'>Legal</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='text-[20px] font-outfit font-normal text-[#000]'>Terms</p>
+                            <p data-aos="fade-up" data-aos-duration="1200" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Privacy</p>
+                            <p data-aos="fade-up" data-aos-duration="1400" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Cookies</p>
+                            <p data-aos="fade-up" data-aos-duration="1600" className='text-[20px] font-outfit font-normal text-[#000] mt-[12px]'>Contact</p>
                         </div>
                     </div>
                 </div>

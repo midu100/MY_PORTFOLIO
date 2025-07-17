@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
+import AnimatedCursor from 'react-animated-cursor'
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Services />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact'   element={<Contact />} />
         
         </Route>
     </Route>
@@ -23,6 +26,16 @@ function App() {
   return (
     <>
       <RouterProvider router={ myRouter} />
+      <AnimatedCursor color='255,255,255'
+        outerAlpha={0.2}
+
+        // innerScale={1}
+        // outerScale={2}
+        showSystemCursor={false}
+        innerStyle={{backgroundColor: 'white', position: 'relative',}}
+        outerStyle={{ border: '1px solid yellow',}}
+      
+      />
       
     </>
   )
