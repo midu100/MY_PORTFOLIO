@@ -26,16 +26,7 @@ function App() {
   return (
     <>
       <RouterProvider router={ myRouter} />
-      <AnimatedCursor color='255,255,255'
-        outerAlpha={0.2}
-
-        // innerScale={1}
-        // outerScale={2}
-        showSystemCursor={false}
-        innerStyle={{backgroundColor: 'white', position: 'relative',}}
-        outerStyle={{ border: '1px solid yellow',}}
-      
-      />
+      <AnimatedCursor color='255,255,255'/>
       
     </>
   )
