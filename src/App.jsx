@@ -7,6 +7,7 @@ import Services from './pages/Services'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import AnimatedCursor from 'react-animated-cursor'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 function App() {
 
@@ -25,8 +26,10 @@ function App() {
 
   return (
     <>
+    <ParallaxProvider>
       <RouterProvider router={ myRouter} />
       <AnimatedCursor color='255,255,255'/>
+    </ParallaxProvider>
       
     </>
   )

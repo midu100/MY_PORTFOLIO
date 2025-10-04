@@ -1,4 +1,7 @@
 @import "tailwindcss";
+/* body{
+  background: #000;
+} */
 
 @utility container {
   margin-inline: auto;
