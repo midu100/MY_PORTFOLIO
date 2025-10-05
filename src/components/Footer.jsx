@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="footerRow flex flex-col lg:flex-row justify-between gap-[40px] lg:gap-0">
             
             {/* Left part */}
-            <div className='w-full lg:w-[280px] text-center lg:text-left'>
+            <div className='w-full lg:w-[350px] text-center lg:text-left'>
               <h2 data-aos="fade-up" data-aos-duration="1000"
                 className='mb-[20px] md:mb-[30px] text-[35px] md:text-[40px] lg:text-[45px] font-outfit font-bold text-[#000]'>
                 KZM
