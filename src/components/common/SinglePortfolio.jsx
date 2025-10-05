@@ -52,8 +52,8 @@ const SinglePortfolio = () => {
                 {
                     Portfolio.map((item, i) => (
                         <div key={i} data-aos="fade-up" data-aos-duration="1000" className='bg-[#0e0d0d] py-[20px] px-[15px] rounded-[20px] shadow-lg hover:shadow-2xl duration-300'>
-                            <div data-aos="zoom-in" data-aos-duration="1000" className="img">
-                                <img className='w-full h-[250px] sm:h-[300px] lg:h-[350px] object-cover rounded-[20px]' src={item.Img} alt={item.portName} />
+                            <div data-aos="zoom-in" data-aos-duration="1000" className="img overflow-hidden rounded-[20px]">
+                                <img className='w-full h-[250px] sm:h-[300px] lg:h-[350px] object-cover rounded-[20px] hover:scale-[1.08] duration-[.4s]' src={item.Img} alt={item.portName} />
                             </div>
 
                             <h2 data-aos="fade-up" data-aos-duration="1000" className='text-[20px] sm:text-[22px] lg:text-[24px] font-montserrat font-semibold text-white my-4 text-center sm:text-left'>{item.portName}</h2>

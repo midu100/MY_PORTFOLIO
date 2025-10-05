@@ -22,7 +22,7 @@ const Banner = () => {
 
   return (
     <div>
-      <section id='banner' className='bg-[#040404] md:pt-[100px] pb-[20px] border-b border-[#3b3939]'>
+      <section id='banner' className='bg-[#040404] pt-[100px] pb-[20px] border-b border-[#3b3939]'>
         <div className="container">
           {/* ✅ Responsive Flex Control */}
           <div className="bannerRow flex flex-col md:flex-row justify-between items-center md:items-start gap-10 md:gap-0">
@@ -34,7 +34,7 @@ const Banner = () => {
               </h2>
 
               <div className='flex flex-col md:flex-row md:gap-[24px] items-center md:items-start mb-[26px]'>
-                <h1 data-aos="zoom-in-down" data-aos-duration="2000" className='text-[55px] md:text-[86px] font-bold font-outfit text-white leading-[60px] md:leading-[70px]'>
+                <h1 data-aos="zoom-in-down" data-aos-duration="2000" className='text-[55px] md:text-[79px] font-bold font-outfit text-white leading-[60px] md:leading-[70px]'>
                   Kazi Mridul
                 </h1>
               </div>

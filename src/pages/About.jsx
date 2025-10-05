@@ -21,6 +21,10 @@ import { DiJqueryLogo } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { Parallax } from 'react-scroll-parallax';
 import { SiExpress } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
+import { SiFirebase } from "react-icons/si";
+
+
 
 const About = () => {
     const learning = [
@@ -48,6 +52,8 @@ const About = () => {
         { skill : <DiJqueryLogo data-aos="fade-up" data-aos-duration="2600" className='text-[50px] text-[#1584c4] text-center' />, skillName:'Jquery' },
         { skill : <FaJava data-aos="fade-up" data-aos-duration="2600" className='text-[50px] text-[#0D6EB6] text-center' />, skillName:'JAVA' },
         { skill : <RiNextjsFill data-aos="fade-up" data-aos-duration="2600" className='text-[50px] text-[#0D6EB6] text-center' />, skillName:'NextJs' },
+         { skill : <TbBrandRedux data-aos="fade-up" data-aos-duration="2600" className='text-[50px] text-[#0D6EB6] text-center' />, skillName:'Redux' },
+          { skill : <SiFirebase data-aos="fade-up" data-aos-duration="2600" className='text-[50px] text-[#e63b10] text-center' />, skillName:'Firebase' },
     ];
 
     return (
